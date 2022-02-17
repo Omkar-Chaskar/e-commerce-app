@@ -1,3 +1,11 @@
+@import './custome/home.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+*, html {
+    font-family: 'Roboto', sans-serif;
+}
 
 .home-header {
     position: relative;
@@ -44,6 +52,7 @@
 br {
     margin: 1rem;
 }
+
 
 @media screen and (max-width: 600px) {
     .home-header{
