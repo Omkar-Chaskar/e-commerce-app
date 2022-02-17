@@ -1,0 +1,45 @@
+/*Unordered list*/
+.ul-squire{list-style-type: square;}
+
+.ul-none{list-style-type: none;}
+
+.ul-circle{list-style-type: circle}
+
+.ul-fill-circle{list-style-type: disc}
+
+
+/*Ordered list*/
+.ol-dec{list-style-type: decimal}
+
+.ol-up-rom{list-style-type: upper-roman}
+
+.ol-low-rom{list-style-type: lower-roman}
+
+.ol-up-alp{list-style-type: upper-alpha}
+
+.ol-low-alp{list-style-type: lower-alpha}
+
+.ol-none{list-style-type: none}
+
+/*Notifiaction Stack*/
+
+.li-stack-border {
+  border: 2px solid var(--dark);
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin: 10px 5px;
+}
+
+.li-stack-head {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 5px 5px 10px 5px;
+  padding: 10px 0;
+  color: var(--blue);
+}
+
+.li-stack-sub {
+  font-size: 0.8rem;
+  padding: 10px 5px 5px;
+  margin: 0;
+}

@@ -1,0 +1,65 @@
+/*-----Header size-----*/
+h1, h2, h3, h4, h5, h6 { margin-bottom: 1rem;}
+
+h1{font-size: 3rem}
+
+h2{font-size: 2.5rem}
+
+h3{font-size: 2rem}
+
+h4{font-size: 1.5rem}
+
+h5{font-size: 1rem}
+
+h6{font-size: 0.5rem}
+
+/*--------paragraph font size----------*/
+
+p { margin: 0;}
+
+.p4{font-size: 1.5rem}
+
+.p3{font-size: 1.3rem}
+
+.p2{font-size: 1rem}
+
+.p1{font-size: 0.8rem}
+
+/*-------Text color----------*/
+
+.text-grey{color: var(--gray)}
+
+.text-primary{color: var(--secondary-hover)}
+
+.text-secondary{color: var(--secondary-color)}
+
+/*------Text Align------*/
+.text-start{text-align:left}
+
+.text-center{text-align: center;}
+
+.text-end{text-align: right}
+
+/*-----Font Weight------*/
+
+.light { font-weight: 100;}
+.regular { font-weight: 300;}
+.semibold { font-weight: 600;}
+.bold { font-weight: 700;}
+.bolder { font-weight: 900;}
+
+/*----Spacing----*/
+
+.spacing-xs {letter-spacing: 4px;}
+.spacing-s {letter-spacing: 8px;}
+.spacing-m {letter-spacing: 12px;}
+.spacing-l {letter-spacing: 16px;}
+.spacing-xl {letter-spacing: 20px;}
+.spacing-xxl {letter-spacing: 24px;}
+
+/*-----Border Radius------*/
+
+.bordius-s {border-radius: 5px;}
+.bordius-m {border-radius: 10px;}
+.bordius-l {border-radius: 15px;}
+.bordius-rd {border-radius: 999px;}

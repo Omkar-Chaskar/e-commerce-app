@@ -1,0 +1,58 @@
+
+.alert {
+    border: 1px solid transparent;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .alert p {
+    margin: 1rem;
+  }
+  
+  .alert p span{
+    position: relative;
+    float: right;
+    top: 3px;
+    cursor: pointer;
+  }
+  
+  .alert-primary {
+    color: var(--primary-color);
+    background-color: var(--primary-hover);
+  }
+  
+  .alert-secondary {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--secondary);
+  }
+  
+  .alert-success {
+    color: var(--success);
+    background-color: var(--success-bg);
+  }
+  
+  .alert-danger {
+    color: var(--danger);
+  background-color: var(--danger-bg);
+  }
+  
+  .alert-warning {
+    color: var(--warning);
+    background-color: var(--warning-bg);
+  }
+  
+  .alert-info {
+    color: var(--info);
+    background-color: var(--info-bg);
+  }
+  
+  .alert-white {
+    color: var(--gray);
+    background-color: var(--gray-300);
+  }
+  
+  .alert-dark {
+    color: var(--dark);
+    background-color: var(--gray-600);
+  }
