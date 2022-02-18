@@ -13,18 +13,18 @@
         justify-content: space-evenly;
     }
 
-    .card {
+    .card-vertical {
         margin: 0;
         width: 15rem;
         min-width: 12rem;
         padding: 0.5rem;
     }
 
-    .card__primary-action {
+    .card__primary-action-vertical {
         margin: 0;
     }
 
-    .card-badge {
+    .card-badge-vertical {
         color: inherit;
         border-radius: 50%;
         padding: 0.2rem;
@@ -32,16 +32,16 @@
         cursor: pointer;
     }
 
-    .card-badge:hover {
+    .card-badge-vertical:hover {
         color: var(--danger);
         background-color: inherit;
     }
 
-    .card__media-column {
+    .card__media-column-vertical {
         padding: 1.5rem;
         width: inherit;
     }
 
-    .card__secondary {
+    .card__secondary-vertical {
         padding-bottom: 0;
     }
