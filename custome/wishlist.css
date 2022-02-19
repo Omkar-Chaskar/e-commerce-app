@@ -1,0 +1,21 @@
+
+.btn-full {
+    width : 100%;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.btn-wishlist {
+    
+    background-color: var(--gray-600);
+}
+
+.btn-wishlist:hover {
+    color: var(--primary-color);
+    background-color: var(--gray-700);
+    border: none;
+}
+
+.card-badge-check {
+    color: var(--danger);
+}
