@@ -46,7 +46,7 @@
     margin: 1.5rem 1rem;
 }
 
-.card__media-row {
+.card__media-row-resp {
     width: 15vw;
     height: 10vw;
 }
@@ -78,7 +78,7 @@
         width : 97%;
     }
 
-    .card__media-row {
+    .card__media-row-resp {
         width: 30vw;
         height: 25vw;
     }
