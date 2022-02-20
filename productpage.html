@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./custome.css">
+    <link href="//fonts.googleapis.com/css2?family=Material+Icons+Outlined&v=1644152679482" rel="stylesheet">
+    <title>Product Page</title>
+</head>
+<body class="product-page">
+    <nav class="navigation">
+        <a href="./index.html">
+            <div class="nav-logo nav-logo-style">SuperStaa</div>
+        </a>
+        <div class="nav-menu">
+            <ul class="nav-flex-row">
+            <li class="nav-menu-sub"><input class="nav-search bordius-l" type="search" 
+            name="input-search" id="input-search" placeholder="Search..."></li>
+            </ul>
+        </div>
+        <div class="nav-submenu">
+            <ul class="nav-flex-row">
+            <li class="nav-submenu-sub"><a href="./login.html">LogIn</a></li>
+            <li class="nav-submenu-sub"><a href="./wishlist.html" class="badge"><span class="material-icons-outlined">
+                favorite_border
+                </span><span class="badge-init badge-right">4</span></a></li>
+            <li class="nav-submenu-sub"><a href="./mycart.html" class="badge"><span class="material-icons-outlined">
+                shopping_cart
+                </span><span class="badge-init badge-right">4</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="filter">
+        <div class="filter-container">
+            <div class="filter-header-container">
+                <h5 class="filter-header">Filter</h5>
+                <button class="filter-clear">Clear</button>
+            </div>
+            <div class="price-slider-container">
+                <h5 class="Price-slider-header">Price</h5>
+                <div class="slider-container">
+                    <input type="range" min="50" max="200" value="150" class="slider" id="myRange">
+                    <p class="price-slider-value p2 bolder">150</p>
+                </div>
+            </div>
+            <div class="catagory-container">
+                <h5 class="catagory-header">Catagory</h5>
+                <input type="checkbox" class="catagory-box" name="Men Clothing" id="filter-catagory-men">
+                <label for="filter-catagory-men">Men Clothing</label>
+                <br>
+                <input type="checkbox" class="catagory-box" name="Men Clothing" id="filter-catagory-women">
+                <label for="filter-catagory-women">Women Clothing</label>
+            </div>
+            <div class="rating-container">
+                <h5 class="rating-header">Rating</h5>
+                <input type="radio" name="rating" class="rating-radio-btn" id="rating-four">
+                <label for="rating-four">4 Star & above</label>
+                <br>
+                <input type="radio" name="rating" class="rating-radio-btn" id="rating-three">
+                <label for="rating-three">3 Star & above</label>
+                <br>
+                <input type="radio" name="rating" class="rating-radio-btn" id="rating-two">
+                <label for="rating-two">2 Star & above</label>
+                <br>
+                <input type="radio" name="rating" class="rating-radio-btn" id="rating-one">
+                <label for="rating-one">1 Star & above</label>
+                <br>
+            </div>
+            <div class="sortby-container">
+                <h5 class="sortby-header">Sort By</h5>
+                <input type="radio" name="sort" class="sortby-radio-btn" id="low-to-high-price">
+                <label for="rating-four">Price - Low to High</label>
+                <br>
+                <input type="radio" name="sort" class="sortby-radio-btn" id="high-to-low-price">
+                <label for="rating-three">Price - High to Low</label>
+                <br>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="main-header-container flex">
+            <h5 class="main-header">Showing All Product</h5>
+            <p class="p1 main-product-count">( Showing <span id="product-count">20</span> products )</p>
+        </div>
+        <div class="product-container">
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-primary p1 btn-full bold">Go To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card-vertical">
+                <div class="card__primary-action card__primary-action-column card__primary-action-vertical">
+                <span class="material-icons-outlined badge-up-right-corner card-badge card-badge-vertical">favorite_border</span>
+                <div class="card__media-column card__media-column-vertical">
+                <img class="card-img" src="./image/product-1.png" alt="">
+                </div>
+                </div>
+                <div class="card__secondary text-center card__secondary-vertical">
+                    <p class="p1">Men Premium Jacket</p>
+                    <h2 class="card__subtitle text-center">&#8377 2000</h2>
+                </div>
+                <div class="card__action-buttons text-center">
+                <button class="button button-secondary p1 btn-full bold">Add To Cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
