@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./custome.css">
+    <link href="//fonts.googleapis.com/css2?family=Material+Icons+Outlined&v=1644152679482" rel="stylesheet">
+    <title>My Cart</title>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="./index.html">
+            <div class="nav-logo nav-logo-style">SuperStaa</div>
+        </a>
+        <div class="nav-menu">
+            <ul class="nav-flex-row">
+            <li class="nav-menu-sub"><input class="nav-search bordius-l" type="search" 
+            name="input-search" id="input-search" placeholder="Search..."></li>
+            </ul>
+        </div>
+        <div class="nav-submenu">
+            <ul class="nav-flex-row">
+            <li class="nav-submenu-sub"><a href="./login.html">Log Out</a></li>
+            <li class="nav-submenu-sub"><a href="./wishlist.html" class="badge"><span class="material-icons-outlined">
+                favorite_border
+                </span><span class="badge-init badge-right">4</span></a></li>
+            <li class="nav-submenu-sub"><a href="./mycart.html" class="badge"><span class="material-icons-outlined">
+                shopping_cart
+                </span><span class="badge-init badge-right">4</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="my-cart">
+        <div class="cart-container">
+            <div class="cart-header-container">
+                <h5 class="cart-header">My Cart (<span class="cart-product-count">2</span> items)</h5>
+            </div>
+            <div class="cart-main">
+                <div class="cart-product-container">
+                    <div class=" card-horizontal">
+                        <div class="card__primary-action card__primary-action-row card__primary-action-horizontal">
+                            <div class="card__media-row card__media-row-horizontal">
+                                <img class="card-img card-img-horizontal" src="./image/product-1.png" alt="">
+                            </div>
+                            <div class="card__primary card__primary-horizontal">
+                                <h2 class="card__title">Men Premium Jacket</h2>
+                                <p class="card__subtitle card-price bold p3">&#8377;2000 <span class="card-cut-price">&#8377;3999</span></p>
+                                <p class="card__subtitle card-discount bold p3">50% off</p>
+                                <div class="cart-product-quantity">
+                                    <p class="p2">Quantity:</p>
+                                    <button class="product-quantity-decrease">&minus;</button>
+                                    <input class="product-quantity-count" type="number" value="0">
+                                    <button class="product-quantity-increase">&plus;</button> 
+                                </div>
+                                <button class="button">Remove From Cart</button>
+                                <button class="button button-secondary">Move to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-billing-container text-start">
+                    <div class="cart-billing-header">
+                        <h5>PRICE DETAILS</h5>
+                    </div>
+                    <hr>
+                    <div class="billing-container">
+                        <div class="billing-prices">
+                            <p>Price (<span class="cart-product-count">2</span> items)</p>
+                            <p>&#8377;4999</p>
+                        </div>
+                        <div class="billing-discount-price">
+                            <p>Discount</p>
+                            <p>&#8377;-1999</p>
+                        </div>
+                        <div class="billing-delivery-charges">
+                            <p>Delivery Charges</p>
+                            <p>&#8377;499</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="cart-billing-total">
+                        <p>TOTAL AMOUNT</p>
+                        <p>&#8377;2000</p>
+                    </div>
+                    <hr>
+                    <div class="cart-billing-saving">
+                        <p>You will save <span class="saving-price">&#8377;2000</span> on this order</p>
+                    </div>
+                    <button class="button button-primary">PLACE ORDER</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./custome.css">
+    <link href="//fonts.googleapis.com/css2?family=Material+Icons+Outlined&v=1644152679482" rel="stylesheet">
+    <title>LogIn Page</title>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="./index.html">
+            <div class="nav-logo nav-logo-style">SuperStaa</div>
+        </a>
+        <div class="nav-menu">
+            <ul class="nav-flex-row">
+            <li class="nav-menu-sub"><input class="nav-search bordius-l" type="search" 
+            name="input-search" id="input-search" placeholder="Search..."></li>
+            </ul>
+        </div>
+        <div class="nav-submenu">
+            <ul class="nav-flex-row">
+            <li class="nav-submenu-sub"><a href="./login.html">LogIn</a></li>
+            <li class="nav-submenu-sub"><a href="./wishlist.html" class="badge"><span class="material-icons-outlined">
+                favorite_border
+                </span><span class="badge-init badge-right">4</span></a></li>
+            <li class="nav-submenu-sub"><a href="./mycart.html" class="badge"><span class="material-icons-outlined">
+                shopping_cart
+                </span><span class="badge-init badge-right">4</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="login">
+        <form class="form-action" id="form" method="get" action="/" >
+            <h4 class="bold text-center login-header">LogIn</h4>
+            <br>
+            <div class="login-container">
+                <label class="input-label" for="email">Email address </label>
+                <input class="input-action" type="email" id="email" name="email" placeholder="Jane@compony.com" required>
+                <p class="input-danger" id="invalid-email"></p>
+                <br>
+                <label class="input-label" for="password">Create Password</label>
+                <input class="input-action" type="password" id="password" name="password" minlength="8" maxlength="15" placeholder="********" required>
+                <p class="input-danger" id="invalid-password"></p>
+                <div>
+                    <div>
+                        <input type="checkbox" name="checkterms" id="checkterms" required>
+                        <label for="checkterms" class="p1">Remember me </label>
+                    </div>
+                    <div" class="link-forgot">
+                        <a href="./forgotpassword.html">Forgot your Password?</a>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <button class="button button-primary btn-full bold btn-submit" id="btn-submit" type="submit">Login</button>
+                    <a class="link-create" href="./signup.html" id="btn-cancel">Create New Account</a>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

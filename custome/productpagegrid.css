@@ -1,0 +1,19 @@
+.navigation {
+    grid-area: header;
+}
+.main {
+    grid-area: main;
+}
+.filter {
+    grid-area: sidebar;
+}
+  
+.product-page {
+    display: grid;
+    grid-template-columns: 13rem auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "sidebar main main main" ;
+    column-gap: 0.5rem;
+}
