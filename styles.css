@@ -1,0 +1,89 @@
+@import './Components/navigation.css';
+@import './Components/list.css';
+@import './Components/typography.css';
+@import './Components/input.css';
+@import './Components/image.css';
+@import './Components/sidebar.css';
+@import './Components/card.css';
+@import './Components/button.css';
+@import './Components/badge.css';
+@import './Components/avatar.css';
+@import './Components/alert.css';
+@import './Components/avatar.css';
+@import './Components/documentation.css';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffffff;
+    --primary-hover: #4fc3f1;
+    --secondary-color: #1a1818;
+    --secondary-hover: #248cf3;
+
+    --blue:#0d6efd;
+    --indigo:#6610f2;
+    --purple:#6f42c1;
+    --pink:#d63384;
+    --red:#dc3545;
+    --orange:#fd7e14;
+    --yellow:#f8ba00;
+    --green:#198754;
+    --teal:#20c997;
+    --cyan:#0dcaf0;
+    --white:#fff;
+    --gray:#6c757d;
+    --gray-dark:#343a40;
+    --gray-100:#f8f9fa;
+    --gray-200:#e9ecef;
+    --gray-300:#dee2e6;
+    --gray-400:#ced4da;
+    --gray-500:#adb5bd;
+    --gray-600:#6c757d;
+    --gray-700:#495057;
+    --gray-800:#343a40;
+    --gray-900:#212529;
+    --primary:#0d6efd;
+    --secondary:#6c757d;
+    --success:#198754;
+    --success-bg:#88d1af;
+    --info:#0dcaf0;
+    --info-bg:#93d8e5;
+    --warning:#ffc107;
+    --warning-bg:#f7e7ba;
+    --danger:#dc3545;
+    --danger-bg:#e7858e;
+    --light:#f8f9fa;
+    --dark:#212529;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {list-style: none;}
+
+button,a {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    * {
+        padding: 0;
+    }
+}
