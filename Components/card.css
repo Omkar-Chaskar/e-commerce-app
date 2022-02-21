@@ -1,0 +1,157 @@
+.card {
+  width: 16rem;
+  height: max-content;
+  border: 1px solid var(--gray-200);
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card-shadow {
+  font-size: inherit;
+  box-shadow: 5px 5px var(--gray-400);
+}
+
+.card-badge {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.badge-up-left-corner {
+position: absolute;
+top : 5px;
+left: 5px;
+}
+
+.badge-up-right-corner {
+position: absolute;
+top : 5px ;
+right: 5px;
+}
+
+.card-badge:hover {
+  background-color: var(--red);
+  border-radius: 50%;
+}
+
+.card__primary-action  {
+  display: flex;
+  position: relative;
+}
+
+.card__primary-action-column {
+  flex-direction: column;
+}
+
+.card__primary-action-row {
+  flex-direction: row;
+}
+
+.card__media-column {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__media-row {
+  width: inherit;
+  height: auto;
+  border-radius: 5px 0 0 0;
+}
+
+.card__primary , .card__secondary{
+  display: block;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.card-text-over {
+  position: absolute;
+  color: var(--primary-color);
+}
+
+.card-text-bottom {
+  position: absolute;
+  top: 60%;
+}
+
+.card-text-center {
+  position: absolute;
+  top : 35%;
+}
+
+.card__secondary--space {
+  padding: 0.5rem 0.5rem;
+}
+
+.card__secondary {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card__title {
+  font-size: 1.5rem;
+}
+
+.card__subtitle {
+  font-size: 0.8rem;
+}
+
+.card__actions {
+  display: flex;
+  position: relative;
+  flex: 4rem wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__action-buttons , .card__action-icons {
+  position: relative;
+}
+
+.card-button {
+  color: var(--primary-hover);
+  font-weight: 600;
+  font-size: inherit;
+}
+
+.card-icon-button {
+  border-radius: 50%;
+  font-size: 1.2rem;
+  padding: 4px;
+  margin: 0.2rem 0.1rem;
+  position: relative;
+  top : 3px;
+  background-color: transparent;
+}
+
+.card-icon-button:hover {
+  font-size: 1.3rem;
+  margin: auto;
+}
+
+.card-hover:hover {
+  background-color: var(--gray-300);
+}
+
+.card-button:active {
+  background-color: var(--primary-hover);
+  color: var(--primary-color);
+}
+
+.card-button , .icon-button{
+  background-color: var(--primary-color);
+}
+
+.button-container {
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem ;
+}
