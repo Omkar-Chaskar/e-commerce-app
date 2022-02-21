@@ -1,4 +1,11 @@
 @import 'https://getratha.netlify.app/styles.css';
+@import './custome/filter.css';
+@import './custome/home.css';
+@import './custome/login.css';
+@import './custome/mycart.css';
+@import './custome/productpage.css';
+@import './custome/productpagegrid.css';
+@import './custome/wishlist.css';
 
 .home-header {
     position: relative;
