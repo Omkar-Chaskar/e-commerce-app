@@ -1,0 +1,30 @@
+
+.login-header {
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link-forgot {
+    display: flex;
+    justify-content: end;
+}
+
+.link-forgot a {
+    color: var(--blue);
+    font-size: small;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.link-create {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.link-create:hover {
+    text-decoration: underline;
+}
+

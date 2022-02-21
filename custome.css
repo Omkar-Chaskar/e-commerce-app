@@ -1,19 +1,5 @@
 @import 'https://getratha.netlify.app/styles.css';
 
-@import './custome/home.css';
-@import './custome/filter.css';
-@import './custome/productpagegrid.css';
-@import './custome/productpage.css';
-@import './custome/mycart.css';
-@import './custome/wishlist.css';
-@import './custome/login.css';
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
-
-*, html {
-    font-family: 'Roboto', sans-serif;
-}
-
 .home-header {
     position: relative;
     top: 15vh;
@@ -26,7 +12,6 @@
 .space-around {justify-content: space-around;}
 .flex-row {flex-direction: row;}
 .flex-column {flex-direction: column;}
-.space-between {justify-content: space-between;}
 
 .ul-flex-center {
     display: flex;
@@ -60,7 +45,6 @@
 br {
     margin: 1rem;
 }
-
 
 @media screen and (max-width: 600px) {
     .home-header{
